@@ -55,3 +55,4 @@ A BERT model that was **trained** using the **Yelp Review Full** dataset for Mas
    # Convert token IDs back to words
    predicted_tokens = [tokenizer.decode([token]) for token in top_k_tokens]
    print(f"Top {top_k} predictions for the masked word: {predicted_tokens}")
+## Refer the Notebooks Section for understanding Training workflows and trying out the model on colab
